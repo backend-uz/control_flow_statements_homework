@@ -6,4 +6,12 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+    if a < 0:
+        a = a + 2
+        return a
+    if a > 0:
+        b = a + 1
+        return b
+    if a == 0:
+        return 10
+print(main(-1))
