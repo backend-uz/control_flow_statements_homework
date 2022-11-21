@@ -7,11 +7,11 @@ def main(a):
         a: a increased by 1 if positive, else unchanged.
     """
     if a > 0:
-        b = a + 1
-        return b
+        a += 1
+        return a
 
     if a < 0:
         return a
         
     
-print(main(-9))
+print(main(9))
