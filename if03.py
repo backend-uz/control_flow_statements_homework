@@ -7,11 +7,11 @@ def main(a):
         a: integer
     """
     if a < 0:
-        a += 2
+        a -= 2
         return a
     if a > 0:
-        a -= 1
+        a += 1
         return a
     if a == 0:
         return 10
-print(main(-1))
+print(main(-5))
