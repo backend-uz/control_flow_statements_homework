@@ -6,10 +6,11 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else decreased by 2.
     """
-    if a > 0:
-        a += 1
-        return a
+    
     if a < 0:
         a -= 2
+        return a
+    if a > 0:
+        a += 1
         return a
 print(main(-5))
