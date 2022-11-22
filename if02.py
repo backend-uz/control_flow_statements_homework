@@ -10,6 +10,6 @@ def main(a):
         a += 1
         return a
     if a < 0:
-        a += 2
+        a -= 2
         return a
-print(main(5))
+print(main(-5))
